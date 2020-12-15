@@ -5,128 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to CA!</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
     </style>
-<style>
-*{margin: 0; padding: 0;}
-img{width: 100%; height: auto; display: block;}
-li{list-style: none;}
-a{text-decoration: none;color:#1D2B36;}
-
-#wrap{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    font-family: 'Work Sans', sans-serif;
-    color: #333333;
-}
-
-#leftWrap,#rightWrap{
-    height: 100%;
-}
-
-#leftWrap{
-    width: 38%;
-    float: left;
-}
-
-#rightWrap{
-    width: 62%;
-    float: right;
-    background-color: #FFFCF4;
-}
-
-#title{
-    width: 280px;
-    height: 80px;
-    letter-spacing: 12px;
-    text-align: center;
-    line-height: 30px;
-    margin: 200px auto 0 auto;
-    /* background-color: #B44B3A; */
-}
-
-#img2{
-    width: 280px;
-    margin: 10px auto 0 auto;    
-}
-
-#text{
-    position: absolute;
-    /* left: 20px; */
-    left: 50px;
-    top: 0;
-    width: auto;
-    height: auto;
-    /* font-size: 100px; */
-    font-size: 180px;
-    color: #B44B3A;
-    letter-spacing: 7px;
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-weight: 700;
-}
-
-#btn{
-    width: 280px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    /* background-color: #6D9282; */
-    transition-duration: 0.5s;
-    margin: 30px auto 0 auto;
-    background-color: #2E303D;
-    border: 1px solid #fffcf4;
-}
-
-#btn>a{
-    color: white;
-}
-
-#btn:hover{
-    background-color: #FFFCF4;
-    border: 1px solid #2E303D;
-}
-
-#btn:hover a{
-    color: #2E303D;
-}
-
-
-
-
-
-</style>
+    <link href="css/index1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
     <div id="wrap">
-        <div id="text">Find Your Vibe</div>
+        <div id="text">Object</div>
         <div id="leftWrap">
             <div id="img1">
-                <img src="img/index1/3.jpeg" alt="" />
-            </div>
-        </div>
-
-        <div id="rightWrap">
-            <div id="title">FIND YOUR<br/> OWN OBEJECTS</div>
-            <div id="img2">
                 <img src="img/index1/1.jpeg" alt="" />
             </div>
-
-            <div id="btn"><a href="index2.html">SHOP OUR NEW COLLECTION</a></div>
+            <ul id="menuWrap">
+                <li>Items</li>
+                <li>Vintage</li>
+                <li>Untensils</li>
+                <li>Cosmetics</li>
+                <li>Furniture</li>
+            </div>
+        <div id="rightWrap">
+            <div id="rightTextWrap">
+                <div id="rightTitle">Objet d'art</div>
+                <div id="rightDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <div id="btn"><a href="index2.html">CLICK TO SEE MORE</a></div>
+            </div>
         </div>
-
-
-
     </div>
-
-    <!-- <a href="index2.html"></a> -->
-
-    <!-- wrap end -->
 </body>
 </html>

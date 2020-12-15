@@ -1,0 +1,134 @@
+*{margin: 0; padding: 0;}
+img{width: 100%; height: auto; display: block;}
+li{list-style: none;}
+a{text-decoration: none;color:#333333;}
+
+#wrap{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    font-family: 'Cormorant Garamond', serif;
+    color: #333333;
+}
+
+#leftWrap,#rightWrap{
+    height: 100%;
+    width: 50%;
+}
+
+#leftWrap{
+    float: left;
+    background-color: #EAE7D0;
+}
+
+#img1{
+    width: 450px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -225px;
+}
+
+#rightWrap{
+    float: right;
+    height: 100vh;
+    background-color: #FFFCF4;
+}
+
+#title{
+    width: 280px;
+    height: 80px;
+    letter-spacing: 12px;
+    text-align: center;
+    line-height: 30px;
+    margin: 200px auto 0 auto;
+}
+
+#img2{
+    width: 280px;
+    margin: 10px auto 0 auto;    
+}
+
+#text{
+    position: absolute;
+    left: 320px;
+    top: 320px;
+    width: auto;
+    height: auto;
+    font-size: 200px;
+    color: #333333;
+    letter-spacing: 7px;
+    font-style: italic;
+    font-weight: 700;
+    z-index: 1;
+}
+
+#menuWrap{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+#menuWrap>li{
+    width: auto;
+    height: 20px;
+    margin-bottom: 10px;
+}
+/* leftWrap end */
+
+#rightTextWrap{
+    width: 300px;
+    height: auto;
+    margin-top: 550px;
+    margin-left: 300px;
+}
+
+#rightTitle{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#rightDesc{
+    width: 100%;
+    height: 100px;
+    line-height: 23px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#btn{
+    width: 180px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    transition-duration: 0.5s;
+    margin: 20px 0 0 0;
+    border: 1px solid #333333;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #333333;
+}
+
+#btn:hover{
+    background-color: #333333;
+}
+
+#btn:hover a{
+    color: #FFFCF4;
+}
+
+/* rightWrap end */

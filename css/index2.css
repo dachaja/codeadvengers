@@ -1,4 +1,3 @@
-
 *{margin: 0; padding: 0;}
 img{width: 100%; height: auto; display: block;}
 li{list-style: none;}
@@ -28,7 +27,6 @@ header{
     height: 50px;
     position: fixed;
     z-index: 99;
-    /* background-color: lightcoral; */
 }
 
 #inHeader{
@@ -44,27 +42,23 @@ header{
 
 #sec_1{
     height: 110vh;
-    /* background-color: rebeccapurple; */
 }
 
 #logo{
     width: 50px;
     float: left;
     font-weight: 500;
-    /* background-color: royalblue; */
 }
 
 #menuWrap{
     width: 308;
     float: right;
-    /* background-color: burlywood; */
 }
 
 #menuWrap>.topMenu{
     width: auto;
     float: left;
     margin-right: 15px;
-    /* background-color: rosybrown; */
 }
 
 #menuWrap>li:last-child{
@@ -84,7 +78,6 @@ header{
     font-size: 14px;
     overflow: hidden;
     transition-duration: 1s;
-    /* background-color: lightgray; */
 }
 
 .subMenu>li{
@@ -98,18 +91,16 @@ header{
 .topMenu:first-child:hover>.subMenu{
     height: 40px;
 }
+
 .topMenu:nth-child(2):hover>.subMenu{
     height: 240px;
 }
-
-
 
 /* header end */
 
 #sec1_container{
     height: 90vh;
     overflow: hidden;
-    /* background-color: lightgreen; */
 }
 
 #sec1_textWrap{
@@ -120,7 +111,6 @@ header{
     top: 190px;
     right: 130px;
     z-index: 2;
-    /* background-color: lemonchiffon; */
 }
 
 #sec1_title{
@@ -130,7 +120,6 @@ header{
     font-size: 180px;
     font-weight: 500;
     margin-bottom: 70px;
-    /* background-color: lightcoral; */
 }
 
 #sec1_subtitle{
@@ -142,17 +131,11 @@ header{
     letter-spacing: 5px;
     margin-bottom: 50px;
     font-family: 'PT Sans Narrow', sans-serif;
-    /* background-color: firebrick; */
 }
-
-/* #sec1_title,#sec1_subtitle{
-    margin-bottom: 50px;
-} */
 
 #sec1_textWrap>p{
     letter-spacing: 2px;
     line-height: 30px;
-    /* background-color: silver; */
 }
 
 #sec1_imgWrap{
@@ -191,13 +174,11 @@ header{
 
 #sec_2{
     height: 240vh;
-    /* background-color: lightcyan; */
 }
 
 .imgDescWrap{
     width: 100%;
     height: 230px;
-    /* background-color: lightsalmon; */
 }
 
 .imgTitle{
@@ -206,7 +187,6 @@ header{
     font-weight: 400;
     width: 100%;
     height: 60px;
-    /* background-color: aqua; */
 }
 
 .imgDesc{
@@ -234,33 +214,28 @@ header{
     width: 450px;
     height: auto;
     position: absolute;
-    /* top: 350px; */
     top: 600px;
 }
 
 #sec2LeftImg{
     width: 100%;
-    /* height: 720px; */
 }
 
 #sec2RightWrap{
     width: 530px;
     height: auto;
     position: absolute;
-    /* top: 0; */
     top: 300px;
 }
 
 #sec2RightImg{
     width: 100%;
-    /* height: 400px; */
 }
 
 #sec2LeftWrap2{
     width: 450px;
     height: auto;
     position: absolute;
-    /* bottom: 100px; */
     bottom: 0;
 }
 
@@ -276,7 +251,6 @@ header{
 
 #sec_3{
     height: 330px;
-    /* background-color: lightsteelblue; */
 }
 
 .btmMenu{
@@ -287,7 +261,6 @@ header{
     letter-spacing: 2px;
     color: #333333;
     text-align: left;
-    /* background-color: lightgoldenrodyellow; */
 }
 
 .btmMenu:first-child{
@@ -303,12 +276,10 @@ header{
     width: 22%;
 }
 
-
 .btmTopMenu{
     width: 100%;
     height: 50px;
     line-height: 50px;
-    /* background-color: rebeccapurple; */
 }
 
 .btmSubMenuWrap{
@@ -323,7 +294,6 @@ header{
     font-size: 15px;
     color: #808080;
 }
-
 
 footer{
     width: 100%;
