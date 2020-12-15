@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+    </style>
+    <link href="css/index2.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+<script>
+    
+    $(document).ready(function(){
+
+        var wh=$(window).height();
+        var ww=$(window).width();
+
+        $(window).scroll(function(){
+            
+            var sct=$(window).scrollTop();
+
+            console.log(sct);
+
+            if(sct>250 && sct<400 ){
+                $('#sec2RightWrap').animate({
+                    top:0
+                },1000);
+            }else if(sct>730 && sct<900){
+                $('#sec2LeftWrap').animate({
+                    top:350
+                },1000);
+            }else if(sct>1300 && sct<1500){
+                $('#sec2RightWrap2').animate({
+                    bottom:600
+                },1000);
+            }else if(sct>1800){
+                $('#sec2LeftWrap2').animate({
+                    bottom:180
+                },1000);
+            }    
+
+        });
+
+
+
+    });
+
+</script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="inHeader">
+                <div id="logo"><a href="#">CA</a></div>
+                <ul id="menuWrap">
+                    <li class="topMenu">
+                        <a href="#">Furniture</a>
+                        <ul class="subMenu">
+                            <li>Chair</li>
+                        </ul>
+                    </li>
+                    <li class="topMenu">
+                        <a href="#">Items</a>
+                        <ul class="subMenu">
+                            <li>vase</li>
+                            <li>frame</li>
+                            <li>candle</li>
+                            <li>vintage</li>
+                            <li>utensils</li>
+                            <li>cosmetics</li>
+                        </ul>
+                    </li>
+
+                    <li class="menuImg">
+                        <img src="img/search.png" alt="" />
+                    </li>
+                    <li class="menuImg">
+                        <img src="img/user.png" alt="" />
+                    </li>
+                    <li class="menuImg">
+                        <img src="img/bag.png" alt="" />
+                    </li>
+                </ul>
+            </div>
+        </header>
+<!-- header end -->
+        <section id="sec_1">
+            <div id="sec1_container">
+                <div id="sec1_textWrap">
+                    <div id="sec1_title">CA.</div>
+                    <div id="sec1_subtitle">Who We Are</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp; 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div id="sec1_imgWrap">
+                    <div id="sec1_introImg1">
+                        <img src="img/sec1_introImg1.jpeg" src=""/>
+                    </div>
+                    <div id="sec1_introImg2">
+                        <img src="img/sec1_intro2.jpeg" src="">
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- section1 end -->
+
+        <section id="sec_2">
+            <div id="sec2LeftWrap">
+                <div id="sec2LeftImg">
+                    <img src="img/sec2_1.jpeg" alt="" />
+                </div>
+                <div class="imgDescWrap">
+                    <div class="imgTitle"><br/>02</div>
+                    <div class="imgDesc">
+                        <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div id="sec2RightWrap">
+                <div class="imgDescWrap">
+                    <div class="imgTitle"><br/>01</div>
+                    <div class="imgDesc">
+                        <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+                <div id="sec2RightImg">
+                    <img src="img/sec2_2.jpg" alt="" />
+                </div>
+            </div>
+            <div id="sec2LeftWrap2">
+                <div id="sec2LeftImg2">
+                    <img src="img/sec3_1.jpeg" alt="" />
+                </div>
+                <div class="imgDescWrap">
+                    <div class="imgTitle"><br/>04</div>
+                    <div class="imgDesc">
+                        <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div id="sec2RightWrap2">
+                <div class="imgDescWrap">
+                    <div class="imgTitle"><br/>03</div>
+                    <div class="imgDesc">
+                        <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+                <div id="sec2RightImg2">
+                    <img src="img/sec3_2.jpg" alt="" />
+                </div>
+            </div>
+        </section>
+<!-- section2 end -->
+
+<section id="sec_3">
+    <div class="btmMenu">
+        <ul class="btmTopMenu">Company</ul>
+        <ul class="btmSubMenuWrap">
+            <li>CA offices</li>
+            <li>Press</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div class="btmMenu">
+        <ul class="btmTopMenu">Legal</ul>
+        <ul class="btmSubMenuWrap">
+            <li>Terms and Conditions of Use</li>
+            <li>Terms and Conditions of Sale</li>
+            <li>Return Policy</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    <div class="btmMenu">
+        <ul class="btmTopMenu">Join the conversation</ul>
+        <ul class="btmSubMenuWrap">
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+            <li>LinkedIn</li>
+        </ul>
+    </div>
+    <div class="btmMenu">
+        <ul class="btmTopMenu">Client realtions</ul>
+        <ul class="btmSubMenuWrap">
+            <li>shipping</li>
+            <li>Payment</li>
+            <li>Returns and Refunds</li>
+            <li>After-sales</li>
+            <li>Care instructions</li>
+        </ul>
+    </div>
+</section>
+<!-- section3 end -->
+
+
+<footer>
+    @2020 Soobin Hwang All Rights Reserved
+</footer>
+    </div>
+<!-- wrap end -->
+</body>
+</html>
