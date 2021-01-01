@@ -1,0 +1,307 @@
+*{margin: 0; padding: 0;}
+img{width: 100%; height: auto; display: block;}
+li{list-style: none;}
+a{text-decoration: none;color:#333333;}
+
+#wrap{
+    width: 100%;
+    height: auto;
+    font-family: 'Work Sans', sans-serif;
+    color: #333333;
+    position: relative;
+    background-color: #FFFCF4;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo,#menuWrap,#menuWrap>li{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 99;
+}
+
+#inHeader{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #FFFCF4;
+}
+
+#sec_1{
+    height: 110vh;
+}
+
+#logo{
+    width: 50px;
+    float: left;
+    font-weight: 500;
+}
+
+#menuWrap{
+    width: 308px;
+    float: right;
+}
+
+#menuWrap>.topMenu{
+    width: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+#menuWrap>li:last-child{
+    margin-right: 0;
+}
+
+#menuWrap>.menuImg{
+    width: 16px;
+    margin-top: 17px;
+    float: left;
+    margin-right: 30px;
+}
+
+.subMenu{
+    width: 100%;
+    height: 0;
+    font-size: 14px;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+.subMenu>li{
+    width: 100%;
+    height: 40px;
+    line-height: 25px;
+    background-color: #FFFCF4;
+    box-sizing: border-box;
+}
+
+.topMenu:first-child:hover>.subMenu{
+    height: 40px;
+}
+
+.topMenu:nth-child(2):hover>.subMenu{
+    height: 240px;
+}
+
+/* header end */
+
+#sec1_container{
+    height: 90vh;
+    overflow: hidden;
+}
+
+#sec1_textWrap{
+    width: 600px;
+    height: auto;
+    text-align:left;
+    position: absolute;
+    top: 190px;
+    right: 130px;
+    z-index: 2;
+}
+
+#sec1_title{
+    width: 100%;
+    height: 155px;
+    line-height: 155px;
+    font-size: 180px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+#sec1_subtitle{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#sec1_textWrap>p{
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#sec1_imgWrap{
+    width: 550px;
+    height: 696px;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    overflow: hidden;
+}
+
+#sec1_introImg1,#sec1_introImg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sec1_introImg1{
+    z-index: 2;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+#sec1_introImg2{
+    transition-duration: 1s;
+}
+
+#sec1_introImg1:hover{
+    opacity: 0;
+}
+
+#sec1_imgWrap:hover #sec1_introImg2{
+    transform: scale(1.05,1.05);
+}
+/* section1 end */
+
+#sec_2{
+    height: 240vh;
+}
+
+.imgDescWrap{
+    width: 100%;
+    height: 230px;
+}
+
+.imgTitle{
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+    height: 60px;
+}
+
+.imgDesc{
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+#sec2LeftWrap{
+    left: 80px;
+}
+
+#sec2LeftWrap2{
+    left: 250px;
+}
+
+#sec2RightWrap2{
+    right: 80px;
+}
+
+#sec2RightWrap{
+    right: 150px;
+}
+
+#sec2LeftWrap{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 600px;
+}
+
+#sec2LeftImg{
+    width: 100%;
+}
+
+#sec2RightWrap{
+    width: 530px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+}
+
+#sec2RightImg{
+    width: 100%;
+}
+
+#sec2LeftWrap2{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+#sec2RightWrap2{
+    width: 420px;
+    height: auto;
+    position: absolute;
+    /* bottom: 700px; */
+    bottom: 500px;
+}
+
+/* section2 end */
+
+#sec_3{
+    height: 330px;
+}
+
+.btmMenu{
+    width: 25%;
+    height: 100%;
+    float: left;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #333333;
+    text-align: left;
+}
+
+.btmMenu:first-child{
+    width: 20%;    
+    margin-left: 7%;
+}
+
+.btmMenu:nth-child(2){
+    width: 26%;
+}
+
+.btmMenu:last-child{
+    width: 22%;
+}
+
+.btmTopMenu{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.btmSubMenuWrap{
+    width: 100%;
+    height: auto;
+}
+
+.btmSubMenuWrap>li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #808080;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    background-color: #E5E5E5;
+}
+
